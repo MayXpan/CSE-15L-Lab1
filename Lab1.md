@@ -2,7 +2,7 @@
 ## When using the three different commands with no arguments
 
    1. cd
-   - ![image](<Lab1 cd1.png>)
+   ![image](<Lab1 cd1.png>)
    - In the image above, it can be seen that the current working directory is the home directory as there is nothing after the tilde.  The function of the 'cd' command is to change the working directory so by not stating a directory in the argument of the command nothing happens.  As such it is not an error.
 
    2. ls
