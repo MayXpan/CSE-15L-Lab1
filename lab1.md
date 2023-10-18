@@ -31,12 +31,12 @@
 
    1. cd
    - ![Image](<Lab1 cd3.png>)
-   - The working directory is lecture1. The cd command can only have directories as arguments because it's purpose of changing the working directory, therefore a file as the argument will not work.  As such, it returns an error message saying that the argument is not a directory.
+   - The working directory is /home/lecture1. The cd command can only have directories as arguments because it's purpose of changing the working directory, therefore a file as the argument will not work.  As such, it returns an error message saying that the argument is not a directory.
 
    2. ls
    - ![Image](<Lab1 ls3.png>)
-   - The working directory is lecture1. The ls command simply prints what files and/or directories are in the argument, and because the argument is a file itself it just prints the file that is inputted as the argument, which in this case is Hello.java. There is no error.
+   - The working directory is /home/lecture1. The ls command simply prints what files and/or directories are in the argument, and because the argument is a file itself it just prints the file that is inputted as the argument, which in this case is Hello.java. There is no error.
 
    3. cat
    - ![Image](<Lab1 cat3.png>)
-   - The working directory is lecture1. The cat command when the argument is a file prints out the contents of the specified file, which in this case is the code that is contained in the Hello.java file. The output is not an error.
+   - The working directory is /home/lecture1. The cat command when the argument is a file prints out the contents of the specified file, which in this case is the code that is contained in the Hello.java file. The output is not an error.
