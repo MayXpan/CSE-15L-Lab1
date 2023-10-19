@@ -10,7 +10,7 @@
    - Like the previous image, the current working directory is the home directory.  When using the ls command it lists what is contained in the current working directory, which in this case is lecture1.  There is no error
 
    3. cat
-   - ![Image](<Lab1 cat1.png>)
+   - ![Image](<Lab1 cat1.2.png>)
    - Again, currently in the home directory.  The functions of the cat command is to create, merge, or print file(s).  As such, by not putting any argument after it and leaving it blank, nothing happens and it reads from standard input.  When it reads from the standard input it returns whatever you write and in order to exit from this interaction you would need to use wither ctrl c or ctrl d.  As such there is no error.
 
 ## When using commands with directory as argument
