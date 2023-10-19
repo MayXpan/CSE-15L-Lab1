@@ -3,7 +3,7 @@
 
    1. cd
    - ![image](<Lab1 cd1.png>)
-   - In the image above, it can be seen that the current working directory is the home directory as there is nothing after the tilde.  The function of the 'cd' command is to change the working directory so by not stating a directory in the argument of the command nothing happens.  As such it is not an error.
+   - In the image above, it can be seen that the current working directory is the home directory as there is nothing after the tilde, however had we been in any other directory than the home directory, by having nothing in the argument, using the cd command will change the current working directory to return to the home directory.  The function of the 'cd' command is to change the working directory so by not stating a directory in the argument of the command nothing happens.  As such it is not an error.
 
    2. ls
    - ![Image](<Lab1 ls1.png>)
@@ -11,7 +11,7 @@
 
    3. cat
    - ![Image](<Lab1 cat1.png>)
-   - Again, currently in the home directory.  The functions of the cat command is to create, merge, or print file(s).  As such, by not putting any argument after it and leaving it blank, nothing happens and it reads from standard input.  As such there is no error.
+   - Again, currently in the home directory.  The functions of the cat command is to create, merge, or print file(s).  As such, by not putting any argument after it and leaving it blank, nothing happens and it reads from standard input.  When it reads from the standard input it returns whatever you write and in order to exit from this interaction you would need to use wither ctrl c or ctrl d.  As such there is no error.
 
 ## When using commands with directory as argument
 
@@ -35,7 +35,7 @@
 
    2. ls
    - ![Image](<Lab1 ls3.png>)
-   - The working directory is /home/lecture1. The ls command simply prints what files and/or directories are in the argument, and because the argument is a file itself it just prints the file that is inputted as the argument, which in this case is Hello.java. There is no error.
+   - The working directory is /home/lecture1. The ls command simply prints what files and/or directories are in the argument, and because the argument is a file itself it just prints the file that is inputted as the argument, which in this case is Hello.java, whereas had the argument been a directory, it would have returned a list of the files and directories that are contained within the argument. There is no error.
 
    3. cat
    - ![Image](<Lab1 cat3.png>)
