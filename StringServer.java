@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 class Handler implements URLHandler {
     private ArrayList<String> list = new ArrayList<>();
+    private String undo;
     private String to_return = "";
     private int sequence_num = 1;
 
@@ -17,10 +18,16 @@ class Handler implements URLHandler {
             to_return = "";
             return String.format("Everything has been cleared!");
         }
+        else if (url.getPath().equals("/undo")) {
+            to_return = undo;
+            sequence_num--;
+            return to_return;
+        }
         else {
             if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
+                    undo = to_return;
                     list.add(parameters[1]);
                     to_return += String.format("%d. %s%n", sequence_num, list.get(list.size() - 1));
                     sequence_num++;
