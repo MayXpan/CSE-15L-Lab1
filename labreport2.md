@@ -59,7 +59,8 @@ class StringServer {
 ![image](<StringServer sc1.png>)
 ---
 ![image](<StringServer sc2.png>)
-In both of the screenshots they're using the same methods.
+
+In both of the screenshots they're using the same methods. They both use the handleRequest method as well as the StringServer method, which is to establish a server for what's going on in the handleRequest method.  For the handleRequest method, there are 4 potential things that could happen based off of the argument.  One, if the user does not add a path and it is just the home directory, then I have made it so that it prints out what has been added so far.  There are two other options, clear and undo that I made just for my own sake for when testing so I didn't have to reset the server which do exactly what they are named to be. And there's the part that adds strings, even if the value given after the s= is a string, character, numeric, or an URL, it reads it in as a string and appends it to what has already been added to the server.  And if there's nothing after the s= or if the path is one not defined in the method, then it will return "404 Not Found".
 
 ## Part 2
 ![image](<Path priv key.png>)
