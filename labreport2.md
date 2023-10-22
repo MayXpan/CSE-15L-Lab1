@@ -59,7 +59,7 @@ class StringServer {
 ![image](<StringServer sc1.png>)
 ---
 ![image](<StringServer sc2.png>)
-In both of the screenshots,
+In both of the screenshots they're using the same methods.
 
 ## Part 2
 ![image](<Path priv key.png>)
@@ -69,4 +69,4 @@ In both of the screenshots,
 ![image](<ssh login np.png>)
 
 ## Part 3
-In week 2's lab, 
+Everything in week 2 and 3 are completely new to me, so it was definitely interesting to learn all of the content in these two weeks' labs.  Of all of the content from both weeks, I found that how to remotely access a computer and how to build and run a server were the more interesting parts of week 2's lab.  And from week 3, I thought that learning how to set up ssh keys was most interesting due to it making it much easier to login.
