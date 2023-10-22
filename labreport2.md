@@ -56,11 +56,14 @@ class StringServer {
     }
 }
 ```
-
+![image](<StringServer sc1.png>)
+![image](<StringServer sc2.png>)
 In both of the screenshots,
 
 ## Part 2
-
+![image](<Path priv key.png>)
+![image](<Path pub key.png>)
+![image](<ssh login np.png>)
 
 ## Part 3
 In week 2's lab, 
