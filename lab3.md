@@ -48,8 +48,8 @@ Originally, the buggy code made a new array but instead of copying in reverse fr
 
 grep
 ---
-1. Using grep to search current directory:
-  - The working directory for the following code block is ~/docsearch/technical.  Grep is typically used to find lines that match the search term, however because technical only contains directories, it instead prints out the directories contained and says so.  It doesn't matter what the search string is as a result of there being no .txt files.
+1. Using grep:
+    - The working directory for the following code block is ~/docsearch/technical.  Grep is typically used to find lines that match the search term, however because technical only contains directories, it instead prints out the directories contained and says so.  It doesn't matter what the search string is as a result of there being no .txt files.
 ```
 $ grep "" *
 grep: 911report: Is a directory
@@ -70,4 +70,11 @@ State_Planning_Special_Report.txt:first by the LSC Vice President for Programs a
 Strategic_report.txt:President Randi Youells and then to President Erlenborn for final
 Strategic_report.txt:American clients, and then transfer eligibility and case data over
 ```
-2. Using grep
+2. Using --color:
+   -
+```
+$ grep --color "and then" commission_report.txt
+the October apple harvest, and then return to Mexico until the work
+may spend April to October in remote parts of California and then
+et. al). The need to recoup this investment, and then hopefully to
+```
