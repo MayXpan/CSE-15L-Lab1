@@ -115,7 +115,6 @@ pmed.0020162.txt:          The selected health outcomes were chosen because of t
   - The working directory is ~/docsearch/technical/plos.  Because I'm using -w it is specifically looking for lines that contain "monday" in the current working directory, which evidently is none so it returns nothing.
 ```
 $ grep -w "monday" *
-
 ```
   - The working directory is ~/docsearch/technical/plos.  This time I'm using "Monday" instead of "monday" and because -w looks for the exact match this time it found lines in the .txt files in /plos that contained "Monday".  Additionally I could have used -i to ignore case sensitivity but I didn't.  By using -w it ensures that you are looking and getting exactly what you're searching for, although you need to be careful of when you type it in in case of any typos or lack of capitalization.
 ```
