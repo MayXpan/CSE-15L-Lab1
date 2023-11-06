@@ -49,7 +49,7 @@ Originally, the buggy code made a new array but instead of copying in reverse fr
 grep
 ---
 1. Using grep:
-    - The working directory for the following code block is ~/docsearch/technical.  Grep is typically used to find lines that match the search term, however because technical only contains directories, it instead prints out the directories contained and says so.  It doesn't matter what the search string is as a result of there being no .txt files.
+  - The working directory for the following code block is ~/docsearch/technical.  Grep is typically used to find lines that match the search term, however because technical only contains directories, it instead prints out the directories contained and says so.  It doesn't matter what the search string is as a result of there being no .txt files.
 ```
 $ grep "" *
 grep: 911report: Is a directory
