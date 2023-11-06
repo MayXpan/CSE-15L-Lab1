@@ -1,3 +1,6 @@
+# Lab Report 3
+
+### Part 1
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -15,3 +18,4 @@ public class ArrayTest {
   }
 }
 ```
+<img width="585" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/658d950a-50c4-4f7c-9039-6bff5ab230e6">
