@@ -123,3 +123,4 @@ pmed.0020059.txt:          The first step is to stratify the data by day of week
 pmed.0020059.txt:          z, given that it was observed on a Monday, is the same for all Mondays,
 pmed.0020059.txt:          the same hospital and the same day of week. That is, if Monday was missing during the
 ```
+I used https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix as my source.
