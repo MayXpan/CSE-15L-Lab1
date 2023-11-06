@@ -74,6 +74,7 @@ Strategic_report.txt:American clients, and then transfer eligibility and case da
 
   - The working directory for the screenshot below is ~/docsearch/technical/government.  It does the same thing as above, but this time I used a path to specify the file because I wasn't in the directory that the file was located in.
   <img width="367" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/8b7f3ee8-64be-4937-82dc-37ab7931e6f1">
+
 3. Using -r to search recursively:
   - The working directory is ~/docsearch/technical.  By using -r, I'm able to search recursively through all of the subdirectories and files contained in the current working directory to search for the search term and return the lines that contain it.  This is useful for when you have a particular term you're looking for but don't necessarily remember where exactly it is stored.
 ```
