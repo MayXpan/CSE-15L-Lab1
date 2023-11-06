@@ -73,5 +73,6 @@ Strategic_report.txt:American clients, and then transfer eligibility and case da
 2. Using --color:
    - The working directory for the screenshot below is ~/docsearch/technical/government/About_LSC.  The only difference from the commands above is that I used --color before the search term which highlighted the search term in the result.  This makes it much more easier to see what you were looking for when using a system that doesn't already do that for you.
  <img width="375" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/50681211-91ff-4535-8474-2fb50c33eff7"> 
+
    - The working directory for the screenshot below is ~/docsearch/technical/government.  It does the same thing as above, but this time I used a path to specify the file because I wasn't in the directory that the file was located in.
   <img width="367" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/8b7f3ee8-64be-4937-82dc-37ab7931e6f1">
