@@ -70,10 +70,10 @@ Strategic_report.txt:American clients, and then transfer eligibility and case da
 ```
 2. Using --color:
   - The working directory for the screenshot below is ~/docsearch/technical/government/About_LSC.  The only difference from the commands above is that I used --color before the search term which highlighted the search term in the result.  This makes it much more easier to see what you were looking for when using a system that doesn't already do that for you.
- <img width="375" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/50681211-91ff-4535-8474-2fb50c33eff7"> 
+![image](<lab3 sc1.png>)
 
   - The working directory for the screenshot below is ~/docsearch/technical/government.  It does the same thing as above, but this time I used a path to specify the file because I wasn't in the directory that the file was located in.
-  <img width="367" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/8b7f3ee8-64be-4937-82dc-37ab7931e6f1">
+![image](<lab3 sc2.png>)
 
 3. Using -r to search recursively:
   - The working directory is ~/docsearch/technical.  By using -r, I'm able to search recursively through all of the subdirectories and files contained in the current working directory to search for the search term and return the lines that contain it.  This is useful for when you have a particular term you're looking for but don't necessarily remember where exactly it is stored.
