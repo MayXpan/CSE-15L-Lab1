@@ -8,11 +8,14 @@ import org.junit.*;
 
 public class ArrayTest {
   @Test
-  public void testReversed() {
+  public void testReversedFail() {
     // should fail
     int[] input = {1, 2, 3, 4, 5};
     assertArrayEquals(new int[]{5, 4, 3, 2, 1}, ArrayExamples.reversed(input));
+  }
 
+  @Test
+  public void testReversedPass() {
     // should pass
     int[] input2 = {0, 0, 0};
     assertArrayEquals(new int[]{0, 0, 0}, ArrayExamples.reversed(input2));
@@ -20,7 +23,8 @@ public class ArrayTest {
 }
 ```
 In the following image, it shows the output from running the tests shown above.
-<img width="585" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/658d950a-50c4-4f7c-9039-6bff5ab230e6">
+<img width="590" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/a899e873-1c35-4b45-8c27-8274781617c3">
+
 
 The buggy code is:
 ```
