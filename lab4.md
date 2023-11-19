@@ -9,7 +9,8 @@ Keys pressed during this step:
 
 Keys pressed:
     ```git<space>clone<space><Ctrl>v<enter>```
-    - used control v to paste the ssh link from Github so I wouldn't have to type out "git@github.com:MayXpan/lab7.git"
+
+used control v to paste the ssh link from Github so I wouldn't have to type out "git@github.com:MayXpan/lab7.git"
 
 ## Step 6
 <img width="213" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/bc4981c6-9389-4c68-9997-51b278192923">
