@@ -3,7 +3,6 @@
 
 Keys pressed during this step:
     - ```ssh<space>cs15lfa23in@ieng6.ucsd.edu<enter>```
-    
     - Inputted password because I don't have an ssh key for machine I'm working on <enter>
 
 ## Step 5
