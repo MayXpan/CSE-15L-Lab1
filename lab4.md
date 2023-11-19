@@ -8,7 +8,7 @@ Keys pressed during this step:
 <img width="404" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/a30e2528-f6e6-40e1-8573-b1e9150269bf">
 
 Keys pressed:
-    git<space>clone<space><Ctrl>v<enter>
+    ```git<space>clone<space><Ctrl>v<enter>```
     - used control v to paste the ssh link from Github so I wouldn't have to type out "git@github.com:MayXpan/lab7.git"
 
 ## Step 6
