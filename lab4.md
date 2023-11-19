@@ -55,8 +55,8 @@ Keys pressed:
 <img width="559" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/cca32fef-8f3b-4310-80ec-c4047bdf45e9">
 
 Keys pressed:
-    - ```git<space>add<space><shift>list<shift>examples.java<enter>```
+```git<space>add<space><shift>list<shift>examples.java<enter>```
     
-    - ```git<space>commit<space>-m<space><shift>'<shift>changed<space>index1<space>to<space>index2<space>at<space>bottom<space>of<space>file<shift>'<enter>```
+```git<space>commit<space>-m<space><shift>'<shift>changed<space>index1<space>to<space>index2<space>at<space>bottom<space>of<space>file<shift>'<enter>```
     
-    - ```git<space>push<enter>```
+```git<space>push<enter>```
