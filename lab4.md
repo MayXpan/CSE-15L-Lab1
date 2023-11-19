@@ -3,7 +3,7 @@
 
 Keys pressed during this step:
     - ```ssh<space>cs15lfa23in@ieng6.ucsd.edu<enter>```, ```Inputted password because I don't have an ssh key for machine I'm working on <enter>```
-
+Logged into ieng6 machine, but had to input password because the machine I'm using for the lab report doesn't have a key to automatically log me in.
 
 ## Step 5
 <img width="404" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/a30e2528-f6e6-40e1-8573-b1e9150269bf">
@@ -25,6 +25,7 @@ Changed directory to lab7 as that's where I'm going to be working in
 
 Keys pressed:
     ```bash<space>test.sh```
+Ran test.sh without any shortcuts.
 
 
 ## Step 7
@@ -32,16 +33,19 @@ Keys pressed:
 
 Keys pressed:
     ```vim<space><shift>list<shift>examples.java<enter>```
+Entered text editor by using vim so I could make changes to the file.
 
 <img width="456" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/c39b4885-8b04-4d77-9cd2-420d4b4d36ef">
 
 Keys pressed:
     ```llllllli<backspace>2<esc>```
+I pressed the l key however many times it took me to get the curser to the right of 1 on the line that it was already on, then entered insert mode to delete and replace with 2 then exited from insert mode by pressing the esc key.
 
 <img width="286" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/49cbf7cd-77c4-44d7-aaaf-91e9877368ce">
 
 Keys pressed:
     ```<shift>;wq<enter>```
+I saved and exited from vim by typing :wq and pressing enter.
 
 
 ## Step 8
@@ -49,14 +53,18 @@ Keys pressed:
 
 Keys pressed:
     ```<up arrow key><up arrow key><enter>```
+Reran the test.sh file by pressing up keys until I got "bash test.sh" because it was used just a couple steps before.
 
 
 ## Step 9
 <img width="559" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/cca32fef-8f3b-4310-80ec-c4047bdf45e9">
 
 Keys pressed:
+
 ```git<space>add<space><shift>list<shift>examples.java<enter>```
     
 ```git<space>commit<space>-m<space><shift>'<shift>changed<space>index1<space>to<space>index2<space>at<space>bottom<space>of<space>file<shift>'<enter>```
     
 ```git<space>push<enter>```
+
+Did all the steps to commit and push changes without any shortcuts.
