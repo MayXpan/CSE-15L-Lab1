@@ -2,7 +2,7 @@
 <img width="376" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/75ab0736-e2f4-4daa-8481-fd95542335f6">
 
 Keys pressed during this step:
-    ssh<space>cs15lfa23in@ieng6.ucsd.edu<enter>
+    ```ssh<space>cs15lfa23in@ieng6.ucsd.edu<enter>```
     Inputted password because I don't have an ssh key for machine I'm working on <enter>
 
 ## Step 5
