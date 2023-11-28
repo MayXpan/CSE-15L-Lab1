@@ -49,7 +49,7 @@ I pressed the l key however many times it took me to get the curser to the right
 <img width="286" alt="image" src="https://github.com/MayXpan/cse-15l-labs/assets/130320757/49cbf7cd-77c4-44d7-aaaf-91e9877368ce">
 
 Keys pressed:
-    ```<shift>;wq<enter>```
+    ```<shift+;>wq<enter>```
 
 I saved and exited from vim by typing :wq and pressing enter.
 
@@ -69,9 +69,13 @@ Reran the test.sh file by pressing up keys until I got "bash test.sh" because it
 Keys pressed:
 
 ```git<space>add<space><shift>list<shift>examples.java<enter>```
+
+Added changes to file in order to be committed and pushed to Github.
     
 ```git<space>commit<space>-m<space><shift>'<shift>changed<space>index1<space>to<space>index2<space>at<space>bottom<space>of<space>file<shift>'<enter>```
+
+Committed files to be pushed to Github.
     
 ```git<space>push<enter>```
 
-Did all the steps to commit and push changes without any shortcuts.
+Pushed changes to Github.
